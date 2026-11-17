@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.bootcamp.helper.PriceCalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s -- in com.bootcamp.helper.PriceCalculatorTest
