@@ -2,11 +2,21 @@ package com.bootcamp.helper;
 
 public class TaxCalculator {
 
-   private double IVA_RATE;
+   private double ivaRate;
 
-   public TaxCalculator(double IVA_RATE) { this.IVA_RATE = IVA_RATE; }
+   public TaxCalculator(double ivaRate) {
+      this.ivaRate = ivaRate;
+   }
 
    public double calculateIva(double price) {
-	  return price * IVA_RATE / 100;
+      double ret = 0.0;
+      if (price > 0) {
+         ret = price * ivaRate / 100;
+      }
+      return ret;
+   }
+
+   public double getIva() {
+      return ivaRate;
    }
 }
